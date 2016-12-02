@@ -11,7 +11,7 @@ Microservice using OAuth 2.0 and OpenID Connect to authenticate in the Google an
 * OAuth2 authentication;
 * Angular JS, HTML, CSS.
 
-### For registration your app in Google App, perform the following steps
+### 1. For registration your app in Google App, perform the following steps
 
 * Go to https://console.developers.google.com and login with your Google account (this will be the developer account and the email of this account will be published when someone tries to authenticate with the Google application).
 * If you don't have a project create a new one and then click into the project.
@@ -27,11 +27,12 @@ Microservice using OAuth 2.0 and OpenID Connect to authenticate in the Google an
 
 * Copy the client ID and client Secret and update the `application.yml`
 
-![alt tag](http://i.piccy.info/i9/e94ffe908f76802d142df90086630fad/1480695097/26162/1085055/oauth3.jpg)
+![alt tag](http://i.piccy.info/i9/9b536cd9e0b49d8a1199df529a47719c/1480698351/29528/1085055/oauth3.jpg)
   
-### To run this application use:
+### 2. To run this application use:
 
 ```bash
 mvn spring-boot:run
   ```
 
+###3. Open browser and browse at `https://localhost:8080/google/login`
