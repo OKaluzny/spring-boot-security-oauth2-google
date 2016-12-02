@@ -1,0 +1,15 @@
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+    display: none !important;
+}
+
+.margin-top-5 {
+    margin-top: 10px;
+}
+
+.p-img {
+    height: 75px;
+    width: 75px;
+    border-radius: 75%;
+}
