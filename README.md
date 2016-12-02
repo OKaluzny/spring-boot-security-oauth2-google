@@ -19,9 +19,9 @@ Microservice using OAuth 2.0 and OpenID Connect to authenticate in the Google an
 
 ![alt tag](http://i.piccy.info/i9/c88b72e2d85f9a5a754bde87266d2d53/1480693194/70408/1085055/oauth1.jpg)
 
-* Application Type = Web Application
-* Authorized Javascript Origins = <YOUR DOMAIN>, 
-* Authorized Redirect URI = http://localhost:8080/google/login.
+* Application Type -> "Web Application",
+* Authorized Javascript Origins -> " ", 
+* Authorized Redirect URI -> http://localhost:8080/google/login
 
 ![alt tag](http://i.piccy.info/i9/a5cd6bb69a9e8a243a31386341c57245/1480693875/89876/1085055/oauth2.jpg)
 
