@@ -21,7 +21,7 @@ Microservice using OAuth 2.0 and OpenID Connect to authenticate in the Google an
 
 * Application Type -> "Web Application",
 * Authorized Javascript Origins -> " ", 
-* Authorized Redirect URI -> http://localhost:8080/google/login
+* Authorized Redirect URI -> [http://localhost:8181/google/login](http://localhost:8181/google/login)
 
 ![alt tag](http://i.piccy.info/i9/a5cd6bb69a9e8a243a31386341c57245/1480693875/89876/1085055/oauth2.jpg)
 
@@ -36,4 +36,4 @@ mvn spring-boot:run
   ```
 
 ###3. Open browser and browse at 
-http://localhost:8181/google/login
+[http://localhost:8181/google/login](http://localhost:8181/google/login)
