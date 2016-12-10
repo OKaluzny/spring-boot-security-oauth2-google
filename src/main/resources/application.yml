@@ -8,8 +8,8 @@ spring:
 security:
   oauth2:
     client:
-      clientId: 560858891996-l8ngro6pemcnatp2tcj3q490mkf7q9dl.apps.googleusercontent.com
-      clientSecret: 5gDfVsl0Kc6v02D1nl9fKwil
+      clientId: <here is your client ID>
+      clientSecret: <here is your client secret>
       accessTokenUri: https://www.googleapis.com/oauth2/v4/token
       userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
       clientAuthenticationScheme: form
