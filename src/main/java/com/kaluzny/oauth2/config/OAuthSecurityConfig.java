@@ -1,6 +1,5 @@
 package com.kaluzny.oauth2.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.UserInfoTokenServices;
@@ -16,31 +15,19 @@ import org.springframework.security.oauth2.client.token.grant.code.Authorization
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
+import lombok.RequiredArgsConstructor;
+
 /**
  * Modifying or overriding the default spring boot security.
  */
+@RequiredArgsConstructor
 @Configurable
 @EnableWebSecurity
 public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private OAuth2ClientContext oauth2ClientContext;
-    private AuthorizationCodeResourceDetails authorizationCodeResourceDetails;
-    private ResourceServerProperties resourceServerProperties;
-
-    @Autowired
-    public void setOauth2ClientContext(OAuth2ClientContext oauth2ClientContext) {
-        this.oauth2ClientContext = oauth2ClientContext;
-    }
-
-    @Autowired
-    public void setAuthorizationCodeResourceDetails(AuthorizationCodeResourceDetails authorizationCodeResourceDetails) {
-        this.authorizationCodeResourceDetails = authorizationCodeResourceDetails;
-    }
-
-    @Autowired
-    public void setResourceServerProperties(ResourceServerProperties resourceServerProperties) {
-        this.resourceServerProperties = resourceServerProperties;
-    }
+    private final OAuth2ClientContext oauth2ClientContext;
+    private final AuthorizationCodeResourceDetails authorizationCodeResourceDetails;
+    private final ResourceServerProperties resourceServerProperties;
 
     /* This method is for overriding the default AuthenticationManagerBuilder.
      We can specify how the user details are kept in the application. It may

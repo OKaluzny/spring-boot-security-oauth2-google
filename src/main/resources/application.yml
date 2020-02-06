@@ -20,4 +20,4 @@ security:
       preferTokenInfo: true
 # Server configuration
 server:
- port: 8181
+  port: 8181
