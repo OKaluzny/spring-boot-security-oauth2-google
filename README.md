@@ -1,4 +1,9 @@
-## Spring Boot 4 + Spring Security 7 demo: Google OAuth 2.0 / OpenID Connect authentication and Angular JS
+## Spring Boot 4 + Spring Security 7 demo: Google OAuth 2.0 / OpenID Connect authentication
+
+[![Java CI with Maven](https://github.com/OKaluzny/spring-boot-security-oauth2-google/actions/workflows/maven.yml/badge.svg)](https://github.com/OKaluzny/spring-boot-security-oauth2-google/actions/workflows/maven.yml)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.2-brightgreen)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-7.0.2-brightgreen)
+![Java](https://img.shields.io/badge/Java-17+-orange)
 
 Microservice using OAuth 2.0 and OpenID Connect to authenticate with Google and get user information.
 
