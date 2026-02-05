@@ -1,0 +1,11 @@
+# Copy this file to application-local.yml and fill in your Google OAuth credentials
+# Get credentials at: https://console.cloud.google.com/apis/credentials
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: YOUR_GOOGLE_CLIENT_ID
+            client-secret: YOUR_GOOGLE_CLIENT_SECRET

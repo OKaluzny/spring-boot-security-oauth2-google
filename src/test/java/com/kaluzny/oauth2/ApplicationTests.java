@@ -1,16 +1,17 @@
 package com.kaluzny.oauth2;
 
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
+import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+@SpringBootTest
+class ApplicationTests {
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
-public class ApplicationTests {
+    @MockitoBean
+    private ClientRegistrationRepository clientRegistrationRepository;
 
     @Test
-    public void contextLoads() {
+    void contextLoads() {
     }
 }
