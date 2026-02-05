@@ -1,6 +1,10 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
 
+### Local credentials ###
+application-local.yml
+**/application-local.yml
+
 ### STS ###
 .apt_generated
 .classpath
