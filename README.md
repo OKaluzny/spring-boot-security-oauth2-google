@@ -1,4 +1,4 @@
-## Spring Boot Security OAuth2 Google and Angular JS
+## Spring Boot 4 + Spring Security 7 demo: Google OAuth 2.0 / OpenID Connect authentication and Angular JS
 
 Microservice using OAuth 2.0 and OpenID Connect to authenticate with Google and get user information.
 
